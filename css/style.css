@@ -1,0 +1,67 @@
+body {
+  font-family: 'Big Shoulders Display', cursive;
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 15px;
+  font-weight: normal;
+  color: #FFFFFF;
+}
+
+img {
+  position: relative;
+}
+
+article {
+  flex-flow: row wrap;
+  flex: 1;
+}
+
+section {
+  display:  flex;
+  flex-flow: row wrap;
+}
+
+.sudans {
+  flex-flow: row wrap;
+  background-color: hsl(31, 77%, 52%);
+  padding: 10px;
+}
+
+.suvs {
+  flex-flow: row wrap;
+  background-color: hsl(184, 100%, 22%);
+  position: relative;
+}
+
+.luxury {
+  flex-flow: row wrap;
+  background-size: 480px;
+  background-color: hsl(179, 100%, 13%);
+}
+
+.BUTTON_DJM {
+   -webkit-border-radius: 25px;
+   -moz-border-radius: 25px;
+   border-radius: 25px;
+   color: #E38826;
+   font-family: 'Big Shoulders Display', cursive;
+   font-family: 'Lexend Deca', sans-serif;
+   font-size: 15px;
+   font-weight: 400;
+   padding: 11px;
+   background-color: #FFFFFF;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.BUTTON_DJM:hover {
+   background: #E38826;
+   border: solid #FFFFFF 1px;
+   -webkit-border-radius: 25px;
+   -moz-border-radius: 25px;
+   border-radius: 25px;
+   text-decoration: none;
+   color: #ffffff;
+   padding: 11px;
+}
