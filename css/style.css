@@ -1,67 +1,92 @@
-body {
-  font-family: 'Big Shoulders Display', cursive;
-  font-family: 'Lexend Deca', sans-serif;
-  font-size: 15px;
-  font-weight: normal;
-  color: #FFFFFF;
+main {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  max-width: 1440px;
 }
 
-img {
-  position: relative;
-}
-
-article {
-  flex-flow: row wrap;
-  flex: 1;
-}
-
-section {
-  display:  flex;
-  flex-flow: row wrap;
-}
-
-.sudans {
-  flex-flow: row wrap;
+.sedans {
   background-color: hsl(31, 77%, 52%);
-  padding: 10px;
+  border-top-left-radius: 2%;
+  border-bottom-left-radius: 2%;
+  width: 200px;
+  padding: 2%;
 }
 
 .suvs {
-  flex-flow: row wrap;
   background-color: hsl(184, 100%, 22%);
-  position: relative;
+  width: 200px;
+  padding: 2%;
 }
 
 .luxury {
-  flex-flow: row wrap;
-  background-size: 480px;
   background-color: hsl(179, 100%, 13%);
+  border-top-right-radius: 2%;
+  border-bottom-right-radius: 2%;
+  width: 200px;
+  padding: 2%;
 }
 
-.BUTTON_DJM {
-   -webkit-border-radius: 25px;
-   -moz-border-radius: 25px;
-   border-radius: 25px;
-   color: #E38826;
-   font-family: 'Big Shoulders Display', cursive;
-   font-family: 'Lexend Deca', sans-serif;
-   font-size: 15px;
-   font-weight: 400;
-   padding: 11px;
-   background-color: #FFFFFF;
-   text-decoration: none;
-   display: inline-block;
-   cursor: pointer;
-   text-align: center;
+h3 {
+  color: hsla(0, 0%, 95%);
+  font-family: 'Big Shoulders Display', cursive;
+  text-transform:uppercase;
+  font-size: 25px;
 }
 
-.BUTTON_DJM:hover {
-   background: #E38826;
-   border: solid #FFFFFF 1px;
-   -webkit-border-radius: 25px;
-   -moz-border-radius: 25px;
-   border-radius: 25px;
-   text-decoration: none;
-   color: #ffffff;
-   padding: 11px;
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: 'Lexend Deca', sans-serif;
+  padding: 20px 20px,;
+  font-size: 12px;
+  margin-right: 30px;
+  line-height: 20px;;
+}
+
+Button {
+  background-color: hsl(0, 0%, 95%);
+  border-radius: 25px;
+  font-family: 'Big Shoulders Display', cursive;
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  padding: 10px;
+  margin-top: 60px;
+  margin-bottom: 20px;
+
+}
+button:hover {
+  border-radius: 25px;
+  background-color: transparent;
+  border-color: white 1px;
+}
+.sedButton {
+  color: hsl(31, 77%, 52%);
+  border-color: hsl(31, 77%, 52%);
+}
+
+.suvButton {
+  color: hsl(184, 100%, 22%);
+  border-color: hsl(184, 100%, 22%);
+}
+
+.luxButton {
+  color: hsl(179, 100%, 13%);
+  border-color: hsl(179, 100%, 13%);
+}
+
+.sedButton:hover {
+  color: hsl(0, 0%, 95%);
+  border-color: white;
+}
+
+.suvButton:hover {
+  color: hsl(0, 0%, 95%);
+  border-color: white;
+}
+
+.luxButton:hover {
+  color: hsl(0, 0%, 95%);
+  border-color: white;
 }
