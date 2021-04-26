@@ -3,7 +3,7 @@ main {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  max-width: 1440px;
+  max-width: 980px;
 }
 
 .sedans {
@@ -54,9 +54,10 @@ Button {
   padding: 10px;
   margin-top: 60px;
   margin-bottom: 20px;
+  border-style: solid;
 
 }
-button:hover {
+Button:hover {
   border-radius: 25px;
   background-color: transparent;
   border-color: white 1px;
@@ -79,14 +80,56 @@ button:hover {
 .sedButton:hover {
   color: hsl(0, 0%, 95%);
   border-color: white;
+  border-style: solid;
 }
 
 .suvButton:hover {
   color: hsl(0, 0%, 95%);
   border-color: white;
+  border-style: solid;
 }
 
 .luxButton:hover {
   color: hsl(0, 0%, 95%);
   border-color: white;
+  border-style: solid;
+}
+
+.attribution {
+  text-align: center;
+  font-size: 11px;
+}
+
+/*@media (min-width: 920px){
+
+    main {
+        height: 100vh;
+        padding: 100px 200px;
+        margin: 40px auto;
+    }
+
+    .SEDANS,
+    .SUVS,
+    .LUXURY {
+      padding: 40px 50px;
+    }
+  .sedans {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 10px;
+  }
+
+  .luxury {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+    h3 {
+      margin-top: 30px;
+    }
+    p {
+      font-size: 15px;
+      margin-bottom: 80px;
+    }
+    }
 }
